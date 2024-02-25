@@ -1,0 +1,146 @@
+[{
+    "title": "Billetera De Cuero Camel",
+    "gender": "M",
+    "id":1,
+    "price": 100,
+    "URLimage":"/imgs/bill3.png"
+},
+{
+    "title": "Billetera De Cuero Azul-Natural",
+    "gender": "M",
+    "id":2,
+    "price": 120,
+    "URLimage":"/imgs/image1.png"
+},
+{
+    "title": "Billetera De Cuero Negro",
+    "gender": "M",
+    "id":3,
+    "price": 110,
+    "URLimage":"/imgs/billetera3.png"
+},
+{
+    "title": "Billetera De Cuero Natural",
+    "gender": "M",
+    "id":4,
+    "price": 130,
+    "URLimage":"/imgs/billetera4.png"
+},
+{
+    "title": "Billetera De Cuero Azul",
+    "gender": "M",
+    "id":5,
+    "price": 100,
+    "URLimage":"/imgs/billetera5.png"
+},
+{
+    "title": "Billetera De Cuero Con Vena",
+    "gender": "M",
+    "id":6,
+    "price": 110,
+    "URLimage":"/imgs/billetera6.png"
+},
+{
+    "title": "Billetera De Cuero Natural",
+    "gender": "M",
+    "id":7,
+    "price": 130,
+    "URLimage":"/imgs/billetera7.png"
+},
+{
+    "title": "Billetera De Cuero Natural 3 vueltas",
+    "gender": "M",
+    "id":8,
+    "price": 120,
+    "URLimage":"/imgs/billetera8.png"
+},
+{
+    "title": "Chequera De Cuero Natural",
+    "gender": "M",
+    "id":9,
+    "price": 180,
+    "URLimage":"/imgs/billetera9.png"
+},
+{
+    "title":"Correa de cuero delgada-rojo",
+    "gender": "F",
+    "id":10 ,
+    "price": 60 ,
+    "URLimage":"/imgs/correa1.jpg"
+
+
+},
+{
+    "title":"Correa de cuero delgada-negro",
+    "gender": "F",
+    "id":11 ,
+    "price": 60,
+    "URLimage":"/imgs/correa2.jpg"
+
+
+},
+{
+    "title":"Correa de cuero delgada-azul",
+    "gender": "F",
+    "id":12 ,
+    "price": 60,
+    "URLimage":"/imgs/correa3.jpg"
+
+
+},
+{
+    "title":"Correa de cuero delgada-marfil",
+    "gender": "F",
+    "id":13 ,
+    "price": 60,
+    "URLimage":"/imgs/correa4.jpg"
+
+
+},
+{
+    "title":"Correa de cuero delgada-blanca",
+    "gender": "F",
+    "id":14 ,
+    "price": 60,
+    "URLimage":"/imgs/correa5.jpg"
+
+
+},
+{
+    "title":"Bolso trenzas",
+    "gender": "F",
+    "id":15 ,
+    "price":150 ,
+    "URLimage":"/imgs/cartera4.jpg"
+
+
+},
+{
+    "title":"Morral de cuero",
+    "gender": "F",
+    "id":16 ,
+    "price": 120 ,
+    "URLimage":"/imgs/cartera5.jpg"
+
+
+},
+{
+    "title":"Correa puente-negro",
+    "gender": "F",
+    "id":17 ,
+    "price": 60,
+    "URLimage":"/imgs/correa6.jpg"
+
+
+},
+{
+    "title":"Correa de cuero-camuflado",
+    "gender": "F",
+    "id":18 ,
+    "price": 60 ,
+    "URLimage":"/imgs/correa7.jpg"
+
+
+}
+
+]
