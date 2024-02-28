@@ -16,8 +16,11 @@
           <span>Total a pagar: S/{{ totalPrecio }}.00</span>
           <span v-if="Object.keys(items).length === 0">Carrito Vacio</span>
           <span v-else>Total de productos: {{ totalCantidad }}</span>
+          <a href="/pasarela" class="text-white rounded-lg px-1 py-1 bg-slate-900  border-slate-900">
+            Pagar Ahora 
+          </a>
           <button
-            class="bg-yellow-500 rounded-lg px-1 py-1 text-slate-900"
+            class="bg-yellow-500 rounded-lg px-1 py-1 text-white"
             @click="vaciar"
           >
             Vaciar carrito

@@ -38,6 +38,12 @@ const routes = [
     name: 'registrarse',
     component: () => import(/* webpackChunkName: "about" */ '../components/Registro.vue')
 
+  },
+  {
+    path: '/pasarela',
+    name: 'pasarela',
+    component: () => import(/* webpackChunkName: "about" */ '../components/Pasarela.vue')
+
   }
 ]
 

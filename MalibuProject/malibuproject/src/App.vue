@@ -113,7 +113,10 @@
       <span class="sr-only">Close modal</span>
     </button>
   </div>
-  <Footer />
+  <footer>
+
+    <Footer />
+  </footer>
 </template>
 <script>
 import Footer from "./components/Footer.vue";
