@@ -93,7 +93,7 @@
     class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50"
   >
     <!-- Contenido del modal -->
-    <div class="bg-white p-4 w-full max-w-md">
+    <div class="bg-white p-4  max-w-2xl">
       <Carrito />
     </div>
     <button

@@ -5,7 +5,7 @@
         Tú carrito de Compras
       </h3>
       <ul
-        class="md:w-96 sm:w-full text-sm max-h-96 font-medium text-gray-900 bg-white border rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white overflow-auto"
+        class="md:w-11/12 sm:w-full text-sm max-h-96 font-medium text-gray-900 bg-white border rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white overflow-auto"
       >
         <li
           class="w-full px-4 py-2 border-b border-gray-200 rounded-t-lg dark:border-gray-600"
@@ -16,9 +16,9 @@
           <span>Total a pagar: S/{{ totalPrecio }}.00</span>
           <span v-if="Object.keys(items).length === 0">Carrito Vacio</span>
           <span v-else>Total de productos: {{ totalCantidad }}</span>
-          <a href="/pasarela" class="text-white rounded-lg px-1 py-1 bg-slate-900  border-slate-900">
+          <button @click="procesarPago"  class="text-white rounded-lg px-1 py-1 bg-slate-900  border-slate-900">
             Pagar Ahora 
-          </a>
+          </button>
           <button
             class="bg-yellow-500 rounded-lg px-1 py-1 text-white"
             @click="vaciar"
@@ -35,6 +35,7 @@
 import { computed } from "vue";
 import { useStore } from "vuex";
 import Item from "./Item.vue";
+import router from "@/router";
 export default {
   components: {
     Item,
@@ -47,7 +48,10 @@ export default {
     const vaciar = () => {
       store.commit("vaciarCarrito");
     };
-    return { items, totalCantidad, totalPrecio, vaciar };
+    const procesarPago = ()=>{
+      router.push({name: 'pasarela'})
+    }
+    return { items, totalCantidad, totalPrecio, vaciar, procesarPago };
   },
 };
 </script>

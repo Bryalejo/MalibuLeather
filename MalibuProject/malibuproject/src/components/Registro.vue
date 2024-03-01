@@ -140,7 +140,7 @@
 </template>
 
 <script setup>
-
+import router from "@/router";
 import { ref } from "vue";
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 
@@ -170,7 +170,9 @@ const registro = async () => {
     const user = userCredential.user;
     console.log("Usuario registrado exitosamente:", user);
     
-  } catch (error) {
+    router.push({name:'login'})
+  } 
+  catch (error) {
     console.error("Error de registro:", error.code, error.message);
     alert(
       "Hubo un error al intentar registrarse. Por favor, verifica tus datos e inténtalo nuevamente."
