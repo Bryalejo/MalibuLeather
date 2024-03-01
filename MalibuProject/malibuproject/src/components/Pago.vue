@@ -218,7 +218,7 @@ export default {
             store.commit("vaciarCarrito");
         };
         const realizarPago = () => {
-            router.push({ name: "pago" });
+            router.push({ name: 'home' });
             alert('Su pedido se realizo exitosamente')
         };
         return { items, totalCantidad, totalPrecio, vaciar, realizarPago };
